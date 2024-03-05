@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#left-page-column {
+    max-width: 25vw;
+    border: 5px solid red;
+}
+
+#background-image {
+    max-width: 100%;
+    height: auto;
+}
