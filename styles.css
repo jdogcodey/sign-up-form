@@ -11,6 +11,7 @@ body {
 
 #left-page-column {
     width: 25vw;
+    min-width: 250px;
     height: 100vh;
     min-height: 300px;
     overflow: hidden;
@@ -60,5 +61,76 @@ body {
 }
 
 #right-page-column {
-    width: 50vw;
+    max-width: 40vw;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#top-description {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 3vh;
+    padding-right: 5vw;
+    padding-left: 2vw;
+    background-color: #F0F0F0;
+}
+
+#top-description p {
+    font-size: 3vh;
+}
+
+#form {
+    height: 100%;
+    padding-right: 5vw;
+    padding-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+legend {
+    font-size: 3vh;
+    margin-top: 10px;
+}
+
+#form-columns {
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+}
+
+label {
+    margin: 20px 5px 0px 0px;
+    font-size: 1.8vh;
+}
+
+#account-settings {
+    height: 100%;
+    padding-right: 5vw;
+    padding-left: 2vw;
+    padding-top: 3vh;
+    background-color: #F0F0F0;
+    font-size: 2vh;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+}
+
+
+a {
+    color: #596D48;
 }
